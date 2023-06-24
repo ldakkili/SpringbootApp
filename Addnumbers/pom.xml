@@ -37,7 +37,7 @@
 				<executions>
 					<execution>
 						<configuration>
-							<mainClass>com.eficens.user.main.EmailApp(Change this to your packahe plus main class)</mainClass>
+							<mainClass>com.example.Addnumbers.AddnumbersApplication</mainClass>
 						</configuration>
 					</execution>
 				</executions>
