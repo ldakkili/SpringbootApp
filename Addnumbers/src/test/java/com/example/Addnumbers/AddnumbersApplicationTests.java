@@ -19,4 +19,14 @@ class AddnumbersApplicationTests {
 		int result = addObject.add(model);
 		Assertions.assertEquals(expected, result);
 	}
+	@Test
+	public void test_fail() {
+		int a = 5;
+		int b = 7;
+		int expected = 11;
+		Model model = new Model(a,b);
+		Add addObject = new Add();
+		int result = addObject.add(model);
+		Assertions.assertNotEquals(expected, result);
+	}
 }
